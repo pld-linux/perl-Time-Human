@@ -6,7 +6,7 @@
 %define	pdir	Time
 %define	pnam	Human
 Summary:	Convert localtime() format to "speaking clock" time
-Summary(pl):	Konwertuje localtime() do czasu w jêzyku mówionym
+Summary(pl):	Konwersja localtime() do czasu w jêzyku mówionym
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.02
 Release:	1
@@ -26,9 +26,9 @@ language; it's originally intended for text-to-speech applications
 and other speech-based interfaces. 
 
 %description -l pl
-Modu³ udostêpnia funkcjê przekszta³caj±c± czas w jêzyk naturalny. Oryginalnie
-zosta³a przeznaczona do aplikacji czytaj±cych tekst oraz innych bazuj±cych na
-mowie interfejsów.
+Ten modu³ udostêpnia funkcjê przekszta³caj±c± czas na jêzyk naturalny.
+Oryginalnie zosta³a przeznaczona do aplikacji czytaj±cych tekst oraz
+innych bazuj±cych na mowie interfejsów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
