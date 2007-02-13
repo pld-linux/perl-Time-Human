@@ -6,7 +6,7 @@
 %define	pdir	Time
 %define	pnam	Human
 Summary:	Convert localtime() format to "speaking clock" time
-Summary(pl.UTF-8):   Konwersja localtime() do czasu w języku mówionym
+Summary(pl.UTF-8):	Konwersja localtime() do czasu w języku mówionym
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.02
 Release:	1
