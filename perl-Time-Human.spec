@@ -8,13 +8,13 @@
 Summary:	Convert localtime() format to "speaking clock" time
 Summary(pl.UTF-8):	Konwersja localtime() do czasu w języku mówionym
 Name:		perl-%{pdir}-%{pnam}
-Version:	1.02
+Version:	1.03
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ca11066959cb38fb8876e2f2fdeb6863
+# Source0-md5:	0e869154c54593305cb1366285c8cac5
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
