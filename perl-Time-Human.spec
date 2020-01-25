@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Time
 %define	pnam	Human
 Summary:	Convert localtime() format to "speaking clock" time
